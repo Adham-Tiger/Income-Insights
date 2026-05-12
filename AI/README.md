@@ -1,4 +1,4 @@
-# 🧠 Income-Insights: Machine Learning Pipeline
+#  Income-Insights: Machine Learning Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -9,7 +9,7 @@ This directory contains the complete Data Science and Machine Learning workflow 
 
 ---
 
-## 🔬 Data Science Workflow
+##  Data Science Workflow
 
 The pipeline is designed with a strong emphasis on data quality, robust feature extraction, and rigorous model evaluation to ensure high accuracy and generalization.
 
@@ -34,7 +34,7 @@ The dataset exhibited a significant class imbalance (the majority earning `<=50K
 
 ---
 
-## 🤖 Model Training & Evaluation
+##  Model Training & Evaluation
 
 We conducted extensive experiments using a variety of algorithms. Each model underwent hyperparameter tuning using `RandomizedSearchCV` (optimized for `F1-Score` to account for the imbalanced nature of the problem) and 3-to-5 fold Cross-Validation.
 
@@ -46,12 +46,12 @@ We conducted extensive experiments using a variety of algorithms. Each model und
 5. XGBoost Classifier
 6. **Custom Stacking Meta-Model:** A powerful ensemble model combining predictions from RF, XGB, LR, SVM, and DT, using a Logistic Regression meta-classifier.
 
-### 🏆 Final Selection: XGBoost
+###  Final Selection: XGBoost
 After comparing the performance across all algorithms on an isolated Test Set, the **XGBoost Classifier** was selected as the optimal model. It provided the best balance between high predictive accuracy (Accuracy & F1-Score) and inference speed (which is critical for the final mobile deployment).
 
 ---
 
-## 📦 Exported Artifacts
+##  Exported Artifacts
 
 For production and deployment purposes, the finalized data processors and the trained model were serialized using `pickle` (or `joblib`). These artifacts ensure that the exact training environment is replicated during inference:
 
@@ -61,7 +61,7 @@ For production and deployment purposes, the finalized data processors and the tr
 
 ---
 
-## 🛠️ How to Use (Local Setup)
+##  How to Use (Local Setup)
 
 1. **Install Dependencies:**
    Ensure you have Python 3.8+ installed. Install the required libraries via:

@@ -1,4 +1,4 @@
-# 📱 Income-Insights (Mobile Application)
+#  Income-Insights (Mobile Application)
 
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
@@ -10,7 +10,7 @@ Its standout feature is **100% On-Device Offline Inference**. The app does not r
 
 ---
 
-## ✨ Key Features
+##  Key Features
 * **Offline AI Inference:** Executes complex machine learning predictions locally using an embedded AI model.
 * **Reactive UI:** A smooth, responsive user interface that instantly updates based on user inputs.
 * **On-Device Data Processing:** The app handles all necessary data scaling, encoding, and tensor shaping internally before feeding it to the AI model.
@@ -18,7 +18,7 @@ Its standout feature is **100% On-Device Offline Inference**. The app does not r
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 This project strictly adheres to **Clean Architecture** principles, ensuring the codebase is scalable, testable, and easy to maintain. The separation of concerns is explicitly divided into Presentation, Domain, and Data layers.
 
@@ -29,7 +29,7 @@ This project strictly adheres to **Clean Architecture** principles, ensuring the
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 The `lib/` directory is structured to reflect the Clean Architecture approach:
 

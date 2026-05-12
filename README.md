@@ -1,4 +1,4 @@
-# 📊 Income-Insights: Offline AI Prediction App
+#  Income-Insights: Offline AI Prediction App
 
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -9,7 +9,7 @@ An end-to-end Machine Learning project deployed as a cross-platform Flutter appl
 
 ---
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 The core of this project is a rigorous Data Science pipeline developed in Python, focusing on feature extraction, handling data imbalance, and extensive model evaluation.
 
@@ -31,12 +31,12 @@ Multiple algorithms were trained, tuned using `RandomizedSearchCV`, and rigorous
 * **Decision Trees**
 * **Custom Stacking Classifier** (Meta-model utilizing predictions from all the above)
 
-**🏆 Winning Model: XGBoost**
-After extensive hyperparameter tuning (learning rate, max depth, subsample, etc.), the `XGBClassifier` proved to be the most efficient and accurate for our specific use case, balancing inference speed and high F1-Score.
+** Winning Model:Custom Stacking Classifier**
+After extensive hyperparameter tuning (learning rate, max depth, subsample, etc.), the `Custom Stacking Classifier` proved to be the most efficient and accurate for our specific use case, balancing inference speed and high F1-Score.
 
 ---
 
-## 📱 Mobile Architecture (Flutter)
+##   Mobile Architecture (Flutter)
 
 To make the AI accessible, we built a Flutter frontend that runs the exported model natively on the device, ensuring privacy and zero latency.
 
@@ -55,7 +55,7 @@ The codebase strictly adheres to **Clean Architecture** principles to ensure mai
 
 ---
 
-## ⚙️ Repository Structure
+##  Repository Structure
 ```text
 Income-Insights/
 │
